@@ -28,7 +28,6 @@ export const styles = createStyles((theme) => ({
 
     "@media (max-width: 520px)": {
       fontSize: 28,
-      textAlign: "left",
     },
   },
 
@@ -41,7 +40,6 @@ export const styles = createStyles((theme) => ({
     textAlign: "center",
 
     "@media (max-width: 520px)": {
-      textAlign: "left",
       fontSize: theme.fontSizes.md,
     },
   },
@@ -63,6 +61,13 @@ export const styles = createStyles((theme) => ({
       width: 500,
       height: 500,
       marginTop: "-50px !important",
+      marginBottom: "-50px !important",
+    },
+
+    "@media (max-width: 520px)": {
+      width: 300,
+      height: 300,
+      marginTop: "-30px !important",
       marginBottom: "-50px !important",
     },
   },
