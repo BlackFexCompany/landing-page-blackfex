@@ -28,7 +28,7 @@ export function HeroSection() {
           loop
           src="animations/hero_animation.json"
           className={classes.animation}
-          style={{ margin: "-130px auto" }}
+          style={{}}
         />
       </div>
     </Container>

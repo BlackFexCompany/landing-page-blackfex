@@ -48,10 +48,22 @@ export const styles = createStyles((theme) => ({
 
   animation: {
     display: "flex",
-    width: 900,
-    height: 900,
-    marginTop: "-150px",
-    marginBottom: "-150px",
+
+
     zIndex: 1,
+    "@media (min-width: 950px)": {
+      width: 900,
+      height: 900,
+      marginTop: "-150px !important",
+      marginBottom: "-150px !important",
+    },
+
+
+    "@media (max-width: 950px)": {
+      width: 500,
+      height: 500,
+      marginTop: "-50px !important",
+      marginBottom: "-50px !important",
+    },
   },
 }));
