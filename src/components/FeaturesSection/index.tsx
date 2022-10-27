@@ -19,27 +19,27 @@ import { styles } from "./styles";
 const features = [
   {
     icon: IconReceiptOff,
-    title: "Free and open source",
+    title: "Times personalizados",
     description:
-      "All packages are published under MIT license, you can use Mantine in any project",
+      "Um time personalizado para a sua necessidade, disposto a tirar todas as suas dúvidas com as melhores estratégias de desenvolvimento para a sua solução.",
   },
   {
     icon: IconFileCode,
-    title: "TypeScript based",
+    title: "Tecnologias avançadas",
     description:
-      "Build type safe applications, all components and hooks export types",
+      "As melhores e mais recentes tecnologias, para manter a sua solução sempre com o mais atualizado que temos disponível no mercado.",
   },
   {
     icon: IconCircleDotted,
-    title: "No annoying focus ring",
+    title: "Escalabilidade",
     description:
-      "With new :focus-visible selector focus ring will appear only when user navigates with keyboard",
+      "Tenha os softwares mais escaláveis possíveis, com servidores prontos para qualquer expansão do seu negócio.",
   },
   {
     icon: IconFlame,
-    title: "Flexible",
+    title: "Exibição e SEO",
     description:
-      "Customize colors, spacing, shadows, fonts and many other settings with global theme object",
+      "Nossas plataformas são construídas para se destacarem nas principais plataformas de pesquisa, aumentando exponencialmente o alcance de novos clientes.",
   },
 ];
 
@@ -52,7 +52,7 @@ export function FeaturesSection() {
         size={44}
         radius="md"
         variant="gradient"
-        gradient={{ deg: 133, from: "blue", to: "cyan" }}
+        gradient={{ deg: 133, from: "lime", to: "green" }}
       >
         <feature.icon size={26} stroke={1.5} />
       </ThemeIcon>
@@ -67,26 +67,26 @@ export function FeaturesSection() {
 
   return (
     <div className={classes.wrapper}>
-      <Container size={1440} className={classes.container}>
+      <Container size={1440} className={classes.container} px={20}>
         <Grid gutter={80}>
           <Col span={12} md={5}>
             <Title className={classes.title} order={2}>
-              A fully featured React components library for your next project
+            Precisa de uma empresa para te entregar um software de alta qualidade?
             </Title>
             <Text color="dimmed">
-              Build fully functional accessible web applications faster than
-              ever – Mantine includes more than 120 customizable components and
-              hooks to cover you in any situation
+            Então não existe tão boa quanto a BlackFex. Aqui 
+            estão apenas algumas razões pelas quais acreditamos que somos 
+            a escolha certa para você
             </Text>
 
             <Button
               variant="gradient"
-              gradient={{ deg: 133, from: "blue", to: "cyan" }}
+              gradient={{ deg: 133, from: "lime", to: "green" }}
               size="lg"
               radius="md"
               mt="xl"
             >
-              Get started
+              Entrar em Contato
             </Button>
           </Col>
           <Col span={12} md={7}>

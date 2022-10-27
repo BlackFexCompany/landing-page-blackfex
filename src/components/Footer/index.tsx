@@ -42,14 +42,14 @@ export function Footer({ data }: FooterLinksProps) {
       <Container className={classes.inner} size={1440}>
         <div className={classes.logo}>
           <Text size="xs" color="dimmed" className={classes.description}>
-            Build fully functional accessible web applications faster than ever
+            ˜Build fully functional accessible web applications faster than ever˜
           </Text>
         </div>
         <div className={classes.groups}>{groups}</div>
       </Container>
       <Container className={classes.afterFooter} size={1440}>
         <Text color="dimmed" size="sm">
-          © 2020 mantine.dev. All rights reserved.
+          © 2022 BlackFex Co. All rights reserved.
         </Text>
 
         <Group spacing={0} className={classes.social} position="right" noWrap>

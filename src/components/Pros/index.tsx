@@ -12,21 +12,21 @@ import { styles } from "./styles";
 
 const mockdata = [
   {
-    title: "Extreme performance",
+    title: "Aplicativos nativos",
     description:
-      "This dust is actually a powerful poison that will even make a pro wrestler sick, Regice cloaks itself with frigid air of -328 degrees Fahrenheit",
+      "Desenvolvemos aplicativos móveis nativos de alta qualidade para iOS e Android. Usamos as ferramentas e tecnologias mais recentes para criar aplicativos confiáveis e escaláveis que proporcionam uma ótima experiência ao usuário, junto à comercialização na loja de cada sistema (Play Store e App Store).",
     icon: IconGauge,
   },
   {
-    title: "Privacy focused",
+    title: "Soluções Web",
     description:
-      "People say it can run at the same speed as lightning striking, Its icy body is so cold, it will not melt even if it is immersed in magma",
+      "Desenvolvemos plataformas que priorizam a experiência do usuário, além de serem altamente performáticas e responsivas para atender as mais diversas necessidades em qualquer dispositivo. Podemos cuidar também da hospedagem do serviço, com servidores robustos e adaptáveis",
     icon: IconUser,
   },
   {
-    title: "No third parties",
+    title: "Serviços de Consultoria",
     description:
-      "They’re popular, but they’re rare. Trainers who show them off recklessly may be targeted by thieves",
+      "Nossa consultoria pode englobar desde o acompanhamento dos primeiros passos do projeto, com planejamento e prototipação, até durante a criação e desenvolvimento da plataforma dos seus sonhos, acompanhando o seu time para auxiliá-lo ao máximo antes da entrega.",
     icon: IconCookie,
   },
 ];
@@ -54,12 +54,12 @@ export function ProsSection() {
     <Container size="lg" py={100} className={classes.wrapper}>
       <Group position="center">
         <Badge variant="filled" size="lg">
-          Best company ever
+          Nossos Serviços!
         </Badge>
       </Group>
 
       <Title order={2} className={classes.title} align="center" mt="sm">
-        Integrate effortlessly with any technology stack
+        Descomplicando o desenvolvimento de plataformas e sistemas robustos
       </Title>
 
       <Text
@@ -68,8 +68,7 @@ export function ProsSection() {
         align="center"
         mt="md"
       >
-        Every once in a while, you’ll see a Golbat that’s missing some fangs.
-        This happens when hunger drives it to try biting a Steel-type Pokémon.
+        Nossa equipe de desenvolvedores experientes trabalhará em estreita colaboração com você para entender seus requisitos e criar uma solução personalizada que atenda às suas necessidades.
       </Text>
 
       <SimpleGrid

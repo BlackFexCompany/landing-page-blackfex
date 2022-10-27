@@ -9,18 +9,17 @@ export function HeroSection() {
     <Container className={classes.wrapper} size={1440} mt={88}>
       <div className={classes.inner}>
         <Title className={classes.title}>
-          Automated AI{" "}
+        If you can think it, we can{" "}
           <Text component="span" className={classes.highlight} inherit>
-            code reviews
+            code
           </Text>{" "}
-          for any stack
+          it!
         </Title>
 
         <Container p={0} size={600}>
           <Text size="lg" color="dimmed" className={classes.description}>
-            Build more reliable software with AI companion. AI is also trained
-            to detect lazy developers who do nothing and just complain on
-            Twitter.
+          Temos uma equipe de desenvolvedores experientes que podem lidar com qualquer projeto, 
+          grande ou pequeno. Solicite seu orçamento hoje mesmo!
           </Text>
         </Container>
 

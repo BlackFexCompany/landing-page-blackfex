@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { ContactForm } from "../components/ContactForm";
 import { FeaturesSection } from "../components/FeaturesSection";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
       <HeroSection />
       <FeaturesSection />
       <ProsSection />
+      <ContactForm />
       <Footer data={footerLinks} />
     </div>
   );
